@@ -1,6 +1,6 @@
 {
 
-    "name": "oat-sa/extension-tao-outcomelti",
+    "name": "openthinklabs/extension-tao-outcomelti",
     "description" : "extension to manage LTI outcome for TAO",
     "type" : "tao-extension",
     "authors" : [
