@@ -71,12 +71,24 @@
 		{
 		  "type": "vcs",
 		  "url": "git@github.com:openthinklabs/extension-tao-outcome.git"
-		}    
+		},
+		{
+		  "type": "vcs",
+		  "url": "git@github.com:openthinklabs/lib-generis-search.git"
+		}		    
    ],   	
     "require": {
         "openthinklabs/oatbox-extension-installer": "~1.1||dev-master",
-		"openthinklabs/generis" : ">=14.0.0",
+		"openthinklabs/generis" : "15.13.1.4",
 		"openthinklabs/extension-tao-lti" : ">=12.0.0",
 		"openthinklabs/extension-tao-outcome" : ">=13.0.0"
-	}
+	},
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "oat-sa/composer-npm-bridge": true,
+            "oat-sa/oatbox-extension-installer": true,
+            "openthinklabs/oatbox-extension-installer": true
+        }
+    }
 }
