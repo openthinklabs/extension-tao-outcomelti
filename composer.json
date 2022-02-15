@@ -103,9 +103,9 @@
    ],   		
     "require": {
         "openthinklabs/oatbox-extension-installer": "1.2.2",
-		"openthinklabs/generis" : "15.11.0.4",
-		"openthinklabs/extension-tao-lti" : "15.5.0.6",
-		"openthinklabs/extension-tao-outcome" : "13.1.0.4"
+		"openthinklabs/generis" : "~15.11.0.4",
+		"openthinklabs/extension-tao-lti" : "~15.5.0.7",
+		"openthinklabs/extension-tao-outcome" : "~13.1.0.5"
 	},
     "config": {
         "allow-plugins": {
