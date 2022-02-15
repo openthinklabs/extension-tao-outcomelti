@@ -3,3 +3,7 @@
 /.buildpath
 composer.lock
 /vendor/
+generis/
+tao/
+taoLti/
+taoResultServer/
